@@ -1,0 +1,118 @@
+  
+body {
+    margin: 0
+}
+ 
+
+ 
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal {
+    margin-top: 0cm;
+    margin-right: 0cm;
+    margin-bottom: 8.0pt;
+    margin-left: 0cm;
+    line-height: 107%;
+    font-size: 10.0pt;
+    font-family: "Calibri",sans-serif;
+}
+  
+
+@page WordSection1 {
+    size: 792.0pt 612.0pt;
+    margin: 36.0pt 36.0pt 36.0pt 36.0pt;
+}
+ 
+ 
+
+  
+.headerTable {
+    width: 695.65pt;
+    border: solid white 1.0pt;
+    background: #ED7D31;
+    padding: 0cm 5.4pt 0cm 5.4pt;
+    height: 56.2pt
+}
+
+td.headerTable2 {
+    width: 136.5pt;
+    border-top: none;
+    border-left: none;
+    border-bottom: double #ED7D31;
+    border-right: solid white 1.0pt;
+    background: #F7CAAC; 
+    margin: 0; 
+}
+
+.fila1 td:not(.columnaDerecha2) {
+    width: 136.5pt;
+    border-top: none;
+    border-left: none;
+    border-bottom: solid white 1.0pt;
+    border-right: solid white 1.0pt;
+    background: #FBE4D5;
+    padding: 0cm 5.4pt 0cm 5.4pt;
+    height: 17.65pt
+}
+
+.fila2 {
+     border-top: none;
+    border-left: none;
+    border-bottom: solid white 1.0pt;
+    border-right: solid white 1.0pt;
+    background: #F7CAAC;
+    padding: 0cm 5.4pt 0cm 5.4pt;
+ 
+}
+
+.columnaDerecha1 {
+    background-color: #ED7D31;
+    height: 33.95pt
+}
+
+.columnaDerecha2 {
+    background-color: #ED7D31
+}
+
+.taleContainer table td.headerTable2:first-child {
+    padding: 5px 0px !important;
+    display: table-cell !important;
+    text-align: left !important;
+    vertical-align: middle !important;
+    border-radius: 2px !important;
+    background: #F7CAAC;
+   
+    border-top: none;
+    border-left: none;
+    border-bottom: double #ED7D31;
+    border-right: solid white 1.0pt;
+}
+
+td, th {
+     padding: 0px 5px;  
+}
+
+/* Estilos básicos para los td con la clase tdNombres */
+.tdNombres {
+    background-color: #f9f9f9; /* Fondo claro */
+    color: #333; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    font-size: 14pt; /* Tamaño del texto */
+    font-family: "Arial", sans-serif; /* Fuente */ 
+    border: 1px solid #ccc; /* Borde ligero */ 
+}
+
+    /* Estilo adicional cuando están en foco (al hacer clic o con teclado) */
+    .tdNombres:focus {
+        background-color: #e0f7fa; /* Fondo resaltado */
+        outline: 2px solid #0078d7; /* Borde azul para indicar el foco */
+    }
+
+    /* Cambiar apariencia al pasar el mouse */
+    .tdNombres:hover {
+        background-color: #f0f8ff; /* Fondo sutilmente diferente */
+        cursor: text; /* Cambia el cursor al de edición */
+    }
+
+
+
+
